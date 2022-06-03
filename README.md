@@ -100,4 +100,60 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ![Ekran Resmi 2022-06-03 20 48 44](https://user-images.githubusercontent.com/91700155/171918889-0dd81b24-834d-4697-892a-9fd2c593ff88.png)
 
+<p> </br>
+  
+## Installing Git
+
+- Update Ubuntu Server
+Before installing Git you have to update software packages on Ubuntu server for that use below commands.
+```console
+sudo apt-get update -y
+```
+
+- Install Jenkins Dependencies
+```console
+sudo apt install git -y
+git --version
+```
+<img width="479" alt="Ekran Resmi 2022-06-02 18 45 03" src="https://user-images.githubusercontent.com/91700155/171920672-30d0da0b-5989-4fa9-8796-8a7420641ea5.png">
+
+<img width="355" alt="Ekran Resmi 2022-06-02 18 45 11" src="https://user-images.githubusercontent.com/91700155/171920736-1361c550-6cb1-4704-b73d-cc8ee8ed9f16.png">
+
+## Installing Docker
+Running Docker on AWS provides administrators and developers a highly reliable, cost-effective way to build, ship, and run distributed applications. Docker can be installed on many different operating systems, including Linux distributions like Ubuntu and even Mac OSX and Windows.
+
+```console
+sudo apt-get update
+```
+
+```console
+sudo apt install docker.io
+```
+<img width="831" alt="Ekran Resmi 2022-06-02 18 45 41" src="https://user-images.githubusercontent.com/91700155/171920935-322694e9-9b11-4337-a639-12ba3bec5c0d.png">
+
+```console
+service docker.io start
+service docker.io status
+```
+
+- Basic Commands for Docker
+```console
+sudo docker info
+```
+<img width="773" alt="Ekran Resmi 2022-06-02 18 46 27" src="https://user-images.githubusercontent.com/91700155/171923073-91265d33-c84f-461f-8bab-1185ddb1dd09.png">
+
+```console
+sudo docker images
+sudo docker ps
+```
+<img width="684" alt="Ekran Resmi 2022-06-02 18 46 40" src="https://user-images.githubusercontent.com/91700155/171923136-31628700-4a5f-499c-98ba-e5c3dee4d9ca.png">
+
+- Run Docker Image:
+By default, docker pulls the images from a Docker registry called Docker Hub managed by Docker company.
+To confirm whether you can download the images from Docker Hub:
+
+```console
+sudo docker run hello-world
+```
+<img width="773" alt="Ekran Resmi 2022-06-02 18 47 25" src="https://user-images.githubusercontent.com/91700155/171923275-b59b2d22-58ca-4c95-9e01-a15cdeeaa8b4.png">
 
