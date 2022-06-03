@@ -4,7 +4,7 @@ In this part, I will show how to install and launch Jenkins,Git,Docker on a AWS 
 
 Let's get start with Jenkins
 
-### Installing Jenkins
+## Installing Jenkins
 
 - Create Ubuntu 18.04 EC2 Instance.
 Once you logged in to your AWS account and accessed your Ubuntu Server 18.04 LTS instance you can follow the below steps to install Jenkins.
