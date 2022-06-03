@@ -119,7 +119,11 @@ git --version
 
 <img width="355" alt="Ekran Resmi 2022-06-02 18 45 11" src="https://user-images.githubusercontent.com/91700155/171920736-1361c550-6cb1-4704-b73d-cc8ee8ed9f16.png">
 
-## Installing Docker
+
+## What’s docker?
+Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.
+
+### Installing Docker
 Running Docker on AWS provides administrators and developers a highly reliable, cost-effective way to build, ship, and run distributed applications. Docker can be installed on many different operating systems, including Linux distributions like Ubuntu and even Mac OSX and Windows.
 
 ```console
