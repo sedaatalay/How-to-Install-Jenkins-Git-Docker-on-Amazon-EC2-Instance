@@ -95,7 +95,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 <img width="850" alt="Ekran Resmi 2022-06-01 23 05 39" src="https://user-images.githubusercontent.com/91700155/171918448-9a702301-eb36-46cd-a9bd-f6d98560552f.png">
 
 - Click Save and Finish after setting your Jenkins access url and other information. Finally you will get a confirmation page and it will be "Jenkins Ready".
-- 
+
 <img width="843" alt="Ekran Resmi 2022-06-01 23 06 51" src="https://user-images.githubusercontent.com/91700155/171918700-64ff1eaf-23f8-40c7-98dd-a8113ef1c410.png">
 
 ![Ekran Resmi 2022-06-03 20 48 44](https://user-images.githubusercontent.com/91700155/171918889-0dd81b24-834d-4697-892a-9fd2c593ff88.png)
