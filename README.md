@@ -45,7 +45,7 @@ sudo apt install jenkins -y
 ```
 <img width="674" alt="Ekran Resmi 2022-06-01 22 52 13" src="https://user-images.githubusercontent.com/91700155/171917039-8fd56d35-b52e-490f-a1ea-908aae3be939.png">
 
-And jenkins installation completed you have to start Jenkins service
+And Jenkins installation completed you have to start Jenkins service
 ```console
 sudo systemctl start jenkins
 sudo systemctl status jenkins
