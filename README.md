@@ -65,7 +65,7 @@ sudo ufw status
 ```
 If your Ubuntu firewall is inactive use
 ```console
-sudo ufw allow OpenSSH sudo ufw enable
+sudo ufw allow OpenSSH 
 sudo ufw enable
 sudo ufw status
 ```
